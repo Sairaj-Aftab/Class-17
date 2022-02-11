@@ -1,0 +1,93 @@
+body{
+    background: #ffffff;
+}
+:root{
+    --shadow-1: 0 .125rem .25rem rgba(0,0,0,.075);
+    --shadow-2: 0 .5rem 1rem rgba(0,0,0,.15);
+    --shadow-3: 0 1rem 3rem rgba(0,0,0,.175);
+}
+li{
+    list-style: none;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.w-90{
+    width: 90%;
+}
+.w-49{
+    width: 49%;
+}
+/* -------Tabs--------------- */
+.tabs{
+    width: 80%;
+    margin: 20px auto 20px;
+    box-shadow: var(--shadow-2);
+}
+.tabs .header ul{
+    display: flex;
+    background-color: #ffffff;
+}
+.tabs .header ul li{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    
+}
+.tabs .header ul li a{
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    color: #111;
+    font-weight: 500;
+}
+.tabs .header ul li a.active{
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    font-weight: 500;
+    color: blue;
+}
+.tabs .body .tab-pane{
+    display: none;
+}
+.tabs .body .tab-pane.active{
+    display: block;
+}
+/* -----First Tab-------- */
+.first-tab .card ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.first-tab .card ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.3rem;
+    padding: 0 0 5px 10px;
+    border-top: 1px solid #ccc;
+    color: #111;
+}
+.first-tab .card ul li a:hover{
+    background-color: #04aa6d;
+    color: #ffffff;
+}
+.first-tab .card ul li a.active{
+    background-color: #04aa6d;
+    color: #ffffff;
+}
+.first-tab .col-md-9{
+    display: none;
+}
+.first-tab .col-md-9.active{
+    display: block;
+}
+/* --------Result App----------- */
+
+/* --------Product Template--------- */
